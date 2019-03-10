@@ -141,8 +141,8 @@ googleAnalytics = ""
       # Suggestion: .svg in the size of 280px*80px looks good
       
       [[params.sponsors]] # create one of these for each of your sponsors. 
-        logo = "" # File in static/img/sponsors
-        link = "" # URL for the sponsor.
+        logo = "coke.png"  # file in static/img/sponsors
+        link = "https://us.coca-cola.com/" # url of the sponsor 
 
   # Footer section
   [params.footer]
