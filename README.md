@@ -1,4 +1,4 @@
-# unconf-website <img src="logo.png" align="right" width="120" />
+# unconf-website <img src="figs/logo.png" align="right" width="120" />
 
 This repository provides a template for setting up your unconf website. You can find a demo of this site [here](https://unconf-toolbox.github.io/unconf-website/).
 
