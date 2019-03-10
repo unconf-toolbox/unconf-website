@@ -1,0 +1,212 @@
+# Site settings
+baseurl = "/" # what is your website's url? 
+canonifyurls = true
+relativeurls = false
+languageCode = "en-us"
+title = "FIXME" # what is your conference called? 
+location = "FIXME" # When and where is your conference?
+theme = "hugo-ropensci-theme"
+publishDir = "docs"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+[params]
+  # To provide some metadata for search engines feel free to add a few
+  # information about you and your website.
+  name = "FIXME" # What is your conference called? 
+  description = "FiXME, FIXME. FIXME 20XX" # Where is your conference? What are the dates? 
+
+  # Link custom assets relative to /static
+  custom_css = []
+  custom_js  = []
+
+  # Possibility to disable external/additional fonts
+  # Exception: Fontawesome
+  disableFonts = false
+
+  # 404 error customization
+  [params.error404]
+    heading = "Sorry, but you seem to have become lost."
+    text = "Please visit [the front page](/)"
+
+  # Optional piwik tracking
+  #[params.analytics.piwik]
+  #  URL = "https://stats.example.com"
+  #  ID = "42"
+  #  # Track all subdomains with "*.example.com"
+  #  domain = "www.example.com"
+  #  # Optional integrity check hash
+  #  hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
+
+  # Navigation
+  [params.navigation]
+    brand = "FIXME" # Your organization/company/school that is hosting the conf. Or just your unconf's name
+    logo = "FIXME" # Your brand logo stored in img/
+    about = "What"  # These are the header links.  
+    team = "Who"
+    joinus="Join Us"
+    venue = "Venue"
+    sponsors = "Sponsors"
+    contact = "Contact"
+
+    # Add custom links. Those can be pre- and postpended to the default menu above.
+    # Use the weight attribute to order your custom links. Uncomment the example
+    # below and replace the values with your own.
+
+    # prepended links
+    #[[menu.prepend]]
+    #  url = "http://gohugo.io"
+    #  name = "Hugo"
+    #  weight = 10
+
+    # postpended links
+    #[[menu.postpend]]
+    #  url = "http://gohugo.io"
+    #  name = "External link"
+    #  weight = 10
+
+
+  # Hero section
+  [params.hero]
+    # To change the background image of the hero, replace 'header-bg.jpg' in
+    # the 'static/img' folder.
+    title = "FIXME" # Your unconf's name here 
+    subtitle = "FIXME 20XX • FIXME • FIXME" #Date, City, State/Country
+    # buttonText = "Tell me more"
+
+
+   # About section
+   [params.about]
+    enable = true
+    title = "FIXME" # What is your unconference called, again? 
+    # In the text section below, describe your event. What makes your event special? Where it says FIXME, substitute your unconf's name
+    text = "Describe your conference here. Credit goes to [rOpenSci](http://ropensci.org/) for the structure of this type of event. We have a strict [code of conduct](/coc) and [terms and conditions](/terms).\n\n All FIXME ideas will begin as GitHub issues on the [FIXME repo](your event's GH repo) in the weeks before the event."
+
+  # Team section
+  [params.team]
+    enable = true
+    # Possibility to center items
+    #center = true
+    title = "Participants"
+    # How would you describe your participants? What are they bringing to your event
+    text = "FIXME"
+
+    # All team member's pictures should be stored under 'static/img/team'.
+    # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
+    
+    [[params.team.members]] # create one of these for each of your participants
+      name = "Firstname Lastname"
+      position = "Affiliation"
+      img = "headshot" # e.g. firstname-lastname.png 
+      twitter = "twitterhandle" # handle only. (not a URL, no @)
+      github = "githubhandl" # handle only. (not a URL, no @)
+      url = "website" # A URL 
+      
+# Join us section
+  [params.joinus]
+  enable=true
+  title = "Join us!"
+  # describe how your event will take in participants. 
+  text = "FIXME"
+
+# Venue section  
+  [params.venue]
+  enable=true
+  title = "Venue"
+  text = "The event will be hosted at [YOUR VENUE](WEBSITE TO YOUR VENUE IF APLICABLE)"
+  map = "" # Link to a Google map embed of your venue's location. Visit https://support.google.com/maps/answer/144361?co=GENIE.Platform%3DDesktop&hl=en to see how to Embed a Google map
+  img = "" # An image of your venue in the static/img folder
+
+  # Sponsors section
+
+    [params.sponsors_list]
+      enable = true
+      # Possibility to center items
+      #center = true
+      title = "Sponsors"
+      text = "We are extremely grateful to all the sponsors for this year's event. If your organization would like to sponsor the OzUnconf, please email nicholas.tierney [at] monash edu for a sponsorship prospectus."
+
+      # All the sponsors' logos are stored under 'static/img/sponsors'.
+      # Replace them with your sponsors's logos.
+      # Suggestion: .svg in the size of 280px*80px looks good
+      
+      [[params.sponsors]] # create one of these for each of your sponsors. 
+        logo = "" # File in static/img/sponsors
+        link = "" # URL for the sponsor.
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = "Published under the Apache License 2.0."
+    # FIXME: how should people contact you? 
+    text = "[Contact us](FIXME) for more information about the event. This page is available at [this repo](YOUR REPO FOR THIS PAGE GOES HERE). Corrections, changes, and suggestions for improvement are welcome as pull requests."
+
+# Not used
+ #   [[params.footer.quicklinks]]
+#      text = "Privacy Policy"
+#      link = "#"
+# Not used
+#    [[params.footer.quicklinks]]
+#      text = "Terms of Use"
+#      link = "#"
+      
+  # OPTIONAL: Contact section. (Will go above the footer.) Uses an external service to have a contact for on the website. 
+  # uncomment the [params.contact] section to use. 
+  #[params.contact]
+  #  enable = false
+  #  title = "Contact us"
+  #  text  = "Lorem ipsum dolor sit amet consectetur."
+  #  buttonText = "Send message"
+
+    # INSTRUCTIONS TO SET UP THE CONTACT FORM: Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below (uncomment it first)
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+
+    # It is possible to substitute formspring with other providers
+    # as an example the mailout plugin from caddy.
+    # Provide the post URL for the form and depending on the provider
+    # add some custom JS script to finish the implementation.
+    # postURL = "https://example.com/mailout/"
+
+    #email = "nicholas.tierney@monash.edu"
+
+    # Success and error message overwrite for async contact form
+    #thanks = "Thank you for awesomely contacting us."
+    #error = "Message could not be send. Please contact us at mail@example.com instead."
+
+    # 'warning' defines error messages for invalid inputs
+    # Uncomment to use contact form
+  #  [params.contact.form.name]
+   #   text = "Your Name *"
+    #  warning = "Please enter your name."
+  # Uncomment to use contact form
+   # [params.contact.form.email]
+  #    text = "Your Email *"
+   #   warning = "Please enter your email address."
+# Uncomment to use contact form
+   # [params.contact.form.phone]
+  #    text = "Your Phone *"
+  #    warning = "Please enter your phone number."
+# Uncomment to use contact form
+    #[params.contact.form.message]
+    #  text = "Your Message *"
+    #  warning = "Please enter a message."
+# Uncomment to use contact form
+      # Add optional form fields to identify contact forms
+      #[[params.contact.form.hidden]]
+      #  name = "someID"
+      #  value = "example.com"
+# Uncomment to use contact form      
+      #[[params.contact.form.hidden]]
+      # Special values for name such as "page" and "site" will be autofilled
+      #  name = "page"      

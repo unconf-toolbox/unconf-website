@@ -1,0 +1,15 @@
+---
+output: github_document
+---
+
+# YOUR EVENT NAME HERE Projects <!--# update after your event--> 
+
+### `r emo::ji("question")` [project name](url to project)
+
+
+---
+
+If there are any projects that you know are missing please
+[fork](LINK TO YOUR REPO FOR THIS SITE)
+this repo on GitHub, make changes to this document (content/projects.Rmd), and then send a pull
+request.
