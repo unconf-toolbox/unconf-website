@@ -1,6 +1,6 @@
 # unconf-website
 
-This repository provides a template for setting up your unconf website. 
+This repository provides a template for setting up your unconf website. You can find a demo of this site [here](https://unconf-toolbox.github.io/unconf-website/).
 
 Note: _Don't fork this repository directly on GitHub._ Instead, follow the instructions below to use Github's importer to copy this `unconf-website` repository and customize it for your workshop. This will make it so that you don't have to worry about upstream changes to our `unconf-website` repository.
 
@@ -57,6 +57,6 @@ You can now either clone this repository and work on this locally, or edit `conf
 
 ## Credits 
 
-- The unconf template is forked from Nick Tierney's [ozunconf 2018 website repository](https://github.com/ropensci/ozunconf18), which is based off of the Hugo [rOpenSci website theme](https://github.com/ropensci/ozunconf18/tree/master/themes/hugo-ropensci-theme).
+- The unconf template is forked from @njtierney's [ozunconf 2018 website repository](https://github.com/ropensci/ozunconf18), which is based off of the Hugo @ropensci [website theme](https://github.com/ropensci/ozunconf18/tree/master/themes/hugo-ropensci-theme). Thanks to both for their beautiful open source websites! 
 - This README is inspired by the Software Carpentry [workshop website template](https://github.com/carpentries/workshop-template).
 - This template was created at the [Chicago R Unconference](https://chirunconf.github.io) by Sam Tyner and Angela Li
