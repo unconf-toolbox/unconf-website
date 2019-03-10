@@ -1,7 +1,7 @@
 # Site settings
-baseurl = "https://unconf-toolbox.github.io/" # what is your website's url? 
+baseurl = "https://unconf-toolbox.github.io/unconf-toolbox" # what is your website's url? 
 canonifyurls = true
-relativeurls = false
+relativeurls = true
 languageCode = "en-us"
 title = "FIXME" # what is your conference called? 
 location = "FIXME" # When and where is your conference?
