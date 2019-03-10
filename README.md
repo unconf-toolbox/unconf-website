@@ -1,8 +1,8 @@
 # unconf-website
 
-This repository provides a template for setting up your unconf website. It is based off of Nick Tierney's [ozunconf 2018 website repository](https://github.com/ropensci/ozunconf18), which is based off of the Hugo [rOpenSci website theme](https://github.com/ropensci/ozunconf18/tree/master/themes/hugo-ropensci-theme). This repository set up is inspired by the Software Carpentry [website template repository](https://github.com/carpentries/workshop-template).
+This repository provides a template for setting up your unconf website. 
 
-1. Please do not fork this repository directly on GitHub. Instead, use GitHub's importer following the instructions below to copy this `unconf-website` repository and customize it for your workshop. This will make it so that you don't have to worry about upstream changes to our `unconf-website` repository.
+Note: _Don't fork this repository directly on GitHub._ Instead, follow the instructions below to use Github's importer to copy this `unconf-website` repository and customize it for your workshop. This will make it so that you don't have to worry about upstream changes to our `unconf-website` repository.
 
 ## Creating a Repository
 
@@ -41,16 +41,22 @@ Click "Begin Import".
     if your organization name is `chirunconf`,
     the repository's URL will be `https://github.com/chirunconf/chirunconf.github.io`.
 
-You can now either clone this repository and work on this locally, or edit `config.toml` in the Github browser.
+You can now either clone this repository and work on this locally, or edit `config.toml` in the Github browser. [NOTE: site does not currently build automatically without being re-served locally, so ignore the second part of this sentence for the time being.]
 
-2.  Edit all the places it says FIXME in `config.toml`. **Also, make sure to change `baseurl` to your own website address, such as "https://chirunconf.github.io/"**, otherwise none of the site formatting or images will show up (because the relative file paths will be wrong).
+2.  Edit all the places it says FIXME in `config.toml`. **Also, make sure to change `baseurl` to your own website address, such as "https://chirunconf.github.io/"**, otherwise none of the site formatting or images will show up (because the relative file paths will be wrong). If you've cloned this template locally, you can check your edits by running `blogdown::serve_site()` after making changes. The site will be published to the `docs` folder, which Github pages will automatically build into a website when you push your changes.
 
-2.5. If you've cloned this template locally, you can check your edits by running `blogdown::serve_site()` after making changes.
+3. Add your logo and additional images (cover photo, venue photo, participant photos) in the `static/img` folder.
 
-3. Add your logo and additional images (cover photo, venue photos, participant photos) in the `static/img` folder.
+4. To include or exclude sections of the website, change the `enable = true` parameter to `enable = false`. 
 
 4. (Optional, to make your life easier) Add the published website URL to the URL section in the Github repo (at the top of the page).
 
 5. (Optional, to clean up your repository) Delete the `figs` folder, which is just for the README on the website template. 
 
 6. (Optional, to clean up your repository) Rewrite this README to be something more descriptive of your unconf.
+
+## Credits 
+
+- The unconf template is forked from Nick Tierney's [ozunconf 2018 website repository](https://github.com/ropensci/ozunconf18), which is based off of the Hugo [rOpenSci website theme](https://github.com/ropensci/ozunconf18/tree/master/themes/hugo-ropensci-theme).
+- This README is inspired by the Software Carpentry [workshop website template](https://github.com/carpentries/workshop-template).
+- This template was created at the [Chicago R Unconference](https://chirunconf.github.io) by Sam Tyner and Angela Li
