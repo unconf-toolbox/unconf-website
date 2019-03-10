@@ -126,7 +126,7 @@ googleAnalytics = ""
       # Possibility to center items
       #center = true
       title = "Sponsors"
-      text = "We are extremely grateful to all the sponsors for this year's event. If your organization would like to sponsor the OzUnconf, please email nicholas.tierney [at] monash edu for a sponsorship prospectus."
+      text = "We are extremely grateful to all the sponsors for this year's event. If your organization would like to sponsor FIXME, please email FIXME for a sponsorship prospectus."
 
       # All the sponsors' logos are stored under 'static/img/sponsors'.
       # Replace them with your sponsors's logos.
