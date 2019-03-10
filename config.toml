@@ -43,7 +43,7 @@ googleAnalytics = ""
   # Navigation
   [params.navigation]
     brand = "FIXME" # Your organization/company/school that is hosting the conf. Or just your unconf's name
-    logo = "FIXME" # Your brand logo stored in img/
+    logo = "logo.png" # Your brand logo stored in img/
     about = "What"  # These are the header links.  
     team = "Who"
     joinus="Join Us"
@@ -97,12 +97,20 @@ googleAnalytics = ""
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     
     [[params.team.members]] # create one of these for each of your participants
-      name = "Firstname Lastname"
-      position = "Affiliation"
-      img = "headshot" # e.g. firstname-lastname.png 
-      twitter = "twitterhandle" # handle only. (not a URL, no @)
-      github = "githubhandl" # handle only. (not a URL, no @)
+      name = "Jane Doe"
+      position = "R Users Anonymous"
+      img = "jane-doe.jpg" # e.g. firstname-lastname.png 
+      twitter = "janedoe" # handle only. (not a URL, no @)
+      github = "janedoe" # handle only. (not a URL, no @)
       url = "website" # A URL 
+    
+#    [[params.team.members]] # create one of these for each of your participants
+#      name = "Firstname Lastname"
+#      position = "Affiliation"
+#      img = "headshot" # e.g. firstname-lastname.png 
+#      twitter = "twitterhandle" # handle only. (not a URL, no @)
+#      github = "githubhandle" # handle only. (not a URL, no @)
+#      url = "website" # A URL 
       
 # Join us section
   [params.joinus]
@@ -116,8 +124,8 @@ googleAnalytics = ""
   enable=true
   title = "Venue"
   text = "The event will be hosted at [YOUR VENUE](WEBSITE TO YOUR VENUE IF APLICABLE)"
-  map = "" # Link to a Google map embed of your venue's location. Visit https://support.google.com/maps/answer/144361?co=GENIE.Platform%3DDesktop&hl=en to see how to Embed a Google map
-  img = "" # An image of your venue in the static/img folder
+  map = "https://www.google.com/maps/embed?pb&#61;!1m18!1m12!1m3!1d2974.751615491931!2d-87.60315248456163!3d41.790566379229254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e293e7c052a6d%3A0x760f5c0c7107088f!2sThe&#43;University&#43;of&#43;Chicago&#43;Computation&#43;Institute!5e0!3m2!1sen!2sus!4v1545085956300" # Link to a Google map embed of your venue's location. Visit https://support.google.com/maps/answer/144361?co=GENIE.Platform%3DDesktop&hl=en to see how to Embed a Google map
+  img = "venue.jpg" # An image of your venue in the static/img folder
 
   # Sponsors section
 
