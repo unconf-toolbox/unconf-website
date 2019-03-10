@@ -3,49 +3,49 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/apply/</loc>
+    <loc>/unconf-website/apply/</loc>
   </url>
   
   <url>
-    <loc>/apply/</loc>
+    <loc>/unconf-website/apply/</loc>
   </url>
   
   <url>
-    <loc>/coc/</loc>
+    <loc>/unconf-website/coc/</loc>
   </url>
   
   <url>
-    <loc>/projects/</loc>
+    <loc>/unconf-website/projects/</loc>
   </url>
   
   <url>
-    <loc>/projects/</loc>
+    <loc>/unconf-website/projects/</loc>
   </url>
   
   <url>
-    <loc>/terms/</loc>
+    <loc>/unconf-website/terms/</loc>
   </url>
   
   <url>
-    <loc>/yay/</loc>
+    <loc>/unconf-website/yay/</loc>
   </url>
   
   <url>
-    <loc>/yay/</loc>
+    <loc>/unconf-website/yay/</loc>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>/unconf-website/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>/unconf-website/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>/unconf-website/tags/</loc>
     <priority>0</priority>
   </url>
   

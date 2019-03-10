@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "/" # what is your website's url? 
+baseurl = "https://unconf-toolbox.github.io/unconf-website/" # what is your website's url? 
 canonifyurls = true
 relativeurls = false
 languageCode = "en-us"
