@@ -49,7 +49,7 @@ a.active {
 }
 
 a {
-    color: #756F58;
+    color: #eeeeee;
 }
 
 a:hover,
@@ -83,7 +83,7 @@ h2 {
 }
 
 .bg-light-gray {
-    background-color: #f7f7f7;
+    background-color: #fff;
 }
 
 .bg-darkest-gray {
@@ -115,12 +115,12 @@ h2 {
 }
 
 .btn-primary {
-    border-color: #4f728d;
+    border-color: #94201D;
     text-transform: uppercase;
     font-family: "Overpass","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
-    background-color: #4f728d;
+    background-color: #94201D;
 }
 
 .btn-primary:hover,
@@ -154,25 +154,25 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #4f728d;
-    background-color: #4f728d;
+    border-color: #94201D;
+    background-color: #94201D;
 }
 
 .btn-primary .badge {
-    color: #4f728d;
+    color: #94201D;
     background-color: #fff;
 }
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #4f728d;
+    border-color: #94201D;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: "Overpass","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #4f728d;
+    background-color: #94201D;
 }
 
 .btn-xl:hover,
@@ -206,28 +206,28 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #4f728d;
-    background-color: #4f728d;
+    border-color: #94201D;
+    background-color: #94201D;
 }
 
 .btn-xl .badge {
     color: #555;
-    background-color: #4f728d;
+    background-color: #94201D;
 }
 
 .navbar-default {
-    border-color: #94201D;
+    border-color: ##94201D;
     background-color: #eee;
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: #4f728d;
+  color: #94201D;
   background-color: #FFF;
-  border-color: #4f728d;
+  border-color: #94201D;
 }
 .navbar-default .navbar-brand {
     font-family: "Overpass","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #4f728d;
+    color: #94201D;
     height: 50px;
 }
 
@@ -235,7 +235,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #4f728d;
+    color: #94201D;
 }
 
 .navbar-brand>img {
@@ -279,7 +279,7 @@ fieldset[disabled] .btn-xl.active {
     text-transform: uppercase;
     font-family: "Overpass","Helvetica Neue",Helvetica,Arial,sans-serif;
     text-decoration: none;
-    border: 1px solid #4f728d;
+    border: 1px solid #94201D;
     padding: 0.4rem 0.8rem;
     margin: 5px;
     border-radius: 4px;
@@ -294,7 +294,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    background: #4f728d;
+    background: #94201D;
     color: #fff;
 }
 
@@ -343,7 +343,7 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    color: #2c3e50;
+    color: #1E0706;
     background-attachment: scroll;
     font-family: "Overpass","Helvetica Neue",Helvetica,Arial,sans-serif;
     background-position: center center;
@@ -400,7 +400,7 @@ header .intro-text .intro-heading {
 
 section {
     padding: 30px 0;
-    background: #abbecd;
+    background: #E3C5C4;
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -594,7 +594,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #4f728d;
+    background-color: #94201D;
 }
 
 .timeline>li .timeline-image h4 {
@@ -859,7 +859,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: #4f728d;
+    border-color: #94201D;
     box-shadow: none;
 }
 
@@ -942,7 +942,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #4f728d;
+    background-color: #94201D;
 }
 
 .btn:focus,
@@ -1030,13 +1030,13 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #4f728d;
+    background: #94201D;
     color: #ddd;
 }
 
 ::selection {
     text-shadow: none;
-    background: #4f728d;
+    background: #94201D;
     color: #ddd;
 }
 
@@ -1049,7 +1049,7 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #4f728d;
+    webkit-tap-highlight-color: #94201D;
 }
 
 /* Wrapping images for venue section */
